@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Beginners</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="menu-trigger" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <div class="gblnv_block">
+        <ul class="gblnv_list">
+          <!-- ←ハンバーガーボタン内、グローバルメニュー -->
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#member">member</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#home">home</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="back-image"></div>
+    <section class="home" id="home">
+      <!-- h1,pをdivで囲っちゃいました -->
+      <div class="home-logo">
+        <h1>Beginners</h1>
+        <p>Programming Community</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="start-text">
+        <!--「アバウトのクラスにメインを含ませる」といった意味になります。-->
+        <h2>About</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-content-main">
+          <h3>We are Biginners.</h3>
+        </div>
+        <div class="center-border"></div>
+        <div class="about-content-explain">
+          <p>
+            "We are Biginners"を謳い文句として,私たちは活動しています.<br />
+            スキルは無いけれど,やる気だけは負けないあなたにこそ入って欲しいコミュニティです.<br />
+            そんな仲間たちがあなたを待っています.
+          </p>
+        </div>
+      </div>
+
+      <div class="end-text">
+        <!--画像だったらすみません。ここは適当です（他３つも同じ表記）線（２本）はどうなるのですかね..?-->
+        <h2>About</h2>
+      </div>
+    </section>
+
+    <section class="members" id="member">
+      <section class="triangle1"></section>
+      <div class="members-container">
+        <div class="start-text ">
+          <h2>Members</h2>
+        </div>
+        <div class="members-content">
+          <div class="member">
+            <!--コンテントボックスを３つ用意しました。追加するのもありだと思います。-->
+            <div class="img"><img src="" alt="sample" /></div>
+            <p>代表</p>
+            <h4>名前</h4>
+            <p class="member-text">sample</p>
+          </div>
+          <div class="member">
+            <div class="img"><img src="" alt="sample" /></div>
+            <p>運営</p>
+            <h4>名前</h4>
+            <p class="member-text">sample</p>
+          </div>
+          <div class="member">
+            <div class="img"><img src="" alt="sample" /></div>
+            <p>運営</p>
+            <h4>名前</h4>
+            <p class="member-text">sample</p>
+          </div>
+        </div>
+
+        <div class="end-text">
+          <h2>Members</h2>
+        </div>
+      </div>
+      <section class="triangle2"></section>
+    </section>
+
+    <section class="works" id="works">
+      <div class="start-text">
+        <h2>Works</h2>
+      </div>
+
+      <div class="works-content">
+        <div class="work work-one">
+          <div class="work-box left">
+            <h4>勉強会</h4>
+            <p>
+              オフラインで会える方は,カフェで一緒に勉強会<br />
+              遠方で会えない方も,オンラインで一緒に勉強会<br />
+              を開いたりして,モチベーションを維持しながら<br />
+              活動を行なっています.
+            </p>
+          </div>
+        </div>
+        <div class="work work-two">
+          <div class="work-box right">
+            <h4>タスクワーク</h4>
+            <p>
+              できることばかりやっていては,スキルアップは期待<br />
+              できません.”Biginners”では,定期的に課題が出され<br />
+              それをこなすことによって,スキルアップを図ること<br />
+              ができます.
+            </p>
+          </div>
+        </div>
+        <div class="work work-three">
+          <div class="work-box left">
+            <h4>案件</h4>
+            <p>
+              様々な方から頂いた,案件をこなすことにより実務経<br />
+              験を積めることはもちろん,スキルアップをすること<br />
+              ができます.実績の獲得にも繋がります.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="end-text">
+        <h2>Works</h2>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="start-text">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-carefull">
+        <p>
+          ご連絡はこちらのフォームからお願い致します<br />
+          ※全項目必須
+        </p>
+      </div>
+
+      <form class="contact-form" method="POST">
+        <p>お名前</p>
+        <input type="text" name="name" />
+        <p>メールアドレス</p>
+        <input type="email" name="email" />
+        <p>電話番号</p>
+        <input type="tel" name="tel" />
+        <p>お問い合わせ内容</p>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="送信" />
+      </form>
+
+      <div class="end-text">
+        <h2>Contact</h2>
+      </div>
+    </section>
+
+    <footer>
+      <p>2019 Beginners. All Rights Reserved.</p>
+    </footer>
+
+    <div id="scroll"><p>⬆︎</p></div>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-3.1.0.min.js"
+    ></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
